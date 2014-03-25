@@ -1,7 +1,7 @@
 easycert openssl
 ===============
 
-This provides an easy automated way to create your own certificate authority including a root certificate, intermediate certificate, and server certificate all in one command.
+This provides an easy automated way to create your own certificate authority including a root certificate, intermediate certificate, and server certificate using openssl all in one command.
 
 Downloading
 ===========
@@ -9,7 +9,7 @@ Downloading
     $ curl -O https://raw.github.com/jsermeno/kerl/master/easycert
     $ chmod a+x easycert
 
-Add the easycert file to your $PATH
+Add the easycert file to your $PATH. Note: openssl command is a prerequisite.
 
 Usage
 ====
