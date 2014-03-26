@@ -18,13 +18,13 @@ The most difficult part is creating a configuration file. Copy the following int
 
     $ cat > ~/.easycertrc << EOF
     EASYCERT_COUNTRY="US"
-    EASYCERT_STATE="California"
-    EASYCERT_LOCALITY="Mountain View"
-    EASYCERT_ORGANIZATION="Catchvar"
-    EASYCERT_UNIT="Studio"
+    EASYCERT_STATE="State"
+    EASYCERT_LOCALITY="City"
+    EASYCERT_ORGANIZATION="Organization Name"
+    EASYCERT_UNIT="Organization Section"
     EASYCERT_COMMON_NAME="localhost"
-    EASYCERT_EMAIL="catchvar@gmail.com"
-    EASYCERT_UNSTRUCTURED="Catchvar"
+    EASYCERT_EMAIL="youremailaddress@gmail.com"
+    EASYCERT_UNSTRUCTURED="Company Name"
     EOF
 
 Then just run one command specifying where you want your certificate authority to be created.
